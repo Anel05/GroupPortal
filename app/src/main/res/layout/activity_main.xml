@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F1F5FB"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
+
+        <!-- Иллюстрация учебного портала -->
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:src="@drawable/icon"
+            android:contentDescription="@string/photo_description"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Название приложения -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:gravity="center" />
+
+        <!-- Подзаголовок -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/main_subtitle"
+            android:textSize="14sp"
+            android:textColor="#64748B"
+            android:gravity="center" />
+
+        <!-- Белая карточка -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp"
+            android:background="@drawable/bg_main_card"
+            android:elevation="4dp">
+
+            <!-- Приветствие -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_title"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textColor="#1E293B" />
+
+            <!-- Описание -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/welcome_description"
+                android:textSize="14sp"
+                android:textColor="#64748B"
+                android:lineSpacingExtra="3dp" />
+
+            <!-- Поле имени -->
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:hint="@string/hint_name"
+                android:inputType="textPersonName|textCapWords"
+                android:autofillHints="name"
+                android:singleLine="true"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:textSize="16sp"
+                android:textColor="#1E293B"
+                android:textColorHint="#94A3B8"
+                android:backgroundTint="#1565C0" />
+
+            <!-- Кнопка открытия списка -->
+            <Button
+                android:id="@+id/btnOpen"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/btn_open"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1565C0"
+                android:stateListAnimator="@null" />
+
+            <!-- Кнопка очистки -->
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/btn_clear"
+                android:textSize="14sp"
+                android:textColor="#1565C0"
+                android:backgroundTint="#E8F0FE"
+                android:stateListAnimator="@null" />
+
+        </LinearLayout>
+
+        <!-- Нижняя подпись -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/footer_text"
+            android:textSize="12sp"
+            android:textColor="#94A3B8" />
+
+    </LinearLayout>
+
+</ScrollView>

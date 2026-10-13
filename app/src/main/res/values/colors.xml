@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Фон и поверхности -->
+    <color name="screen_background">#F4F7FB</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Текст -->
+    <color name="text_primary">#263238</color>
+    <color name="text_secondary">#607080</color>
+
+    <!-- Границы и состояния -->
+    <color name="divider">#DCE4ED</color>
+    <color name="success">#2E7D32</color>
+    <color name="error">#C62828</color>
+    <color name="white">#FFFFFF</color>
+</resources>

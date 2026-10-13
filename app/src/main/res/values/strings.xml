@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GroupPortal</string>
+
+    <!-- Главный экран -->
+    <string name="main_subtitle">Портал учебной группы</string>
+    <string name="hint_name">Введите ваше имя</string>
+    <string name="btn_open">Открыть список студентов</string>
+    <string name="btn_clear">Очистить поле</string>
+    <string name="empty_name">Введите имя</string>
+    <string name="welcome_title">Добро пожаловать!</string>
+    <string name="welcome_description">Введите имя, чтобы перейти к студентам вашей группы.</string>
+    <string name="footer_text">Учебная группа · Студенческий портал</string>
+    <string name="photo_description">Иллюстрация учебного портала</string>
+
+    <!-- Список студентов -->
+    <string name="welcome_format">Добро пожаловать, %1$s!</string>
+    <string name="list_title">Студенты группы</string>
+    <string name="choose_student">Выберите студента</string>
+    <string name="student_grade_format">%1$s — %2$d баллов</string>
+    <string name="students_count">Всего студентов: %1$d</string>
+
+    <!-- Карточка студента -->
+    <string name="unknown_student">Неизвестный студент</string>
+    <string name="grade_default">Оценка: 0 баллов</string>
+    <string name="grade_format">Оценка: %1$d баллов</string>
+    <string name="group_label">Учебная группа</string>
+    <string name="group_value">Computer Science</string>
+    <string name="subjects_title">Успеваемость по дисциплинам</string>
+    <string name="subject_programming">Программирование</string>
+    <string name="subject_math">Математика</string>
+    <string name="subject_english">Английский язык</string>
+    <string name="subject_grade_format">%1$d баллов</string>
+    <string name="btn_back">Вернуться к списку</string>
+</resources>

@@ -1,0 +1,65 @@
+--------- beginning of main
+10-13 16:06:39.734 D/MainActivity( 4807): onCreate: главный экран создан
+10-13 16:06:39.744 D/MainActivity( 4807): onStart
+10-13 16:06:39.748 D/MainActivity( 4807): onResume
+10-13 16:06:46.522 W/MainActivity( 4807): Попытка перехода без имени
+10-13 16:06:52.640 D/MainActivity( 4807): Поле имени очищено
+10-13 16:06:58.069 I/MainActivity( 4807): Открытие списка для пользователя: Anel
+10-13 16:06:58.314 D/MainActivity( 4807): onPause
+10-13 16:06:58.466 D/ListActivity( 4807): onCreate: список студентов открыт
+10-13 16:06:58.476 D/ListActivity( 4807): Список сформирован: 4 студентов
+10-13 16:06:58.481 D/ListActivity( 4807): onStart
+10-13 16:06:58.508 D/ListActivity( 4807): onResume
+10-13 16:07:00.407 D/MainActivity( 4807): onStop
+10-13 16:07:01.186 I/ListActivity( 4807): Выбран студент: Асанов Айдос
+10-13 16:07:01.215 D/ListActivity( 4807): onPause
+10-13 16:07:01.283 D/DetailActivity( 4807): onCreate: карточка студента открыта
+10-13 16:07:01.284 D/DetailActivity( 4807): Студент: Асанов Айдос, оценки: программирование=94, математика=90, английский=92, средний балл=92
+10-13 16:07:01.286 D/DetailActivity( 4807): onStart
+10-13 16:07:01.289 D/DetailActivity( 4807): onResume
+10-13 16:07:02.206 D/ListActivity( 4807): onStop
+10-13 16:07:03.916 D/DetailActivity( 4807): Возврат к прежнему списку студентов
+10-13 16:07:04.003 D/DetailActivity( 4807): onPause
+10-13 16:07:04.044 D/ListActivity( 4807): onStart
+10-13 16:07:04.056 D/ListActivity( 4807): onResume
+10-13 16:07:05.326 D/DetailActivity( 4807): onStop
+10-13 16:07:05.336 D/DetailActivity( 4807): onDestroy
+10-13 16:07:06.021 I/ListActivity( 4807): Выбран студент: Иванова Анна
+10-13 16:07:06.097 D/ListActivity( 4807): onPause
+10-13 16:07:06.183 D/DetailActivity( 4807): onCreate: карточка студента открыта
+10-13 16:07:06.186 D/DetailActivity( 4807): Студент: Иванова Анна, оценки: программирование=86, математика=90, английский=88, средний балл=88
+10-13 16:07:06.189 D/DetailActivity( 4807): onStart
+10-13 16:07:06.192 D/DetailActivity( 4807): onResume
+10-13 16:07:07.150 D/ListActivity( 4807): onStop
+10-13 16:07:08.937 D/DetailActivity( 4807): Возврат к прежнему списку студентов
+10-13 16:07:08.990 D/DetailActivity( 4807): onPause
+10-13 16:07:09.090 D/ListActivity( 4807): onStart
+10-13 16:07:09.090 D/ListActivity( 4807): onResume
+10-13 16:07:10.230 D/DetailActivity( 4807): onStop
+10-13 16:07:10.234 D/DetailActivity( 4807): onDestroy
+10-13 16:07:11.022 I/ListActivity( 4807): Выбран студент: Серикова Алия
+10-13 16:07:11.055 D/ListActivity( 4807): onPause
+10-13 16:07:11.125 D/DetailActivity( 4807): onCreate: карточка студента открыта
+10-13 16:07:11.126 D/DetailActivity( 4807): Студент: Серикова Алия, оценки: программирование=96, математика=94, английский=95, средний балл=95
+10-13 16:07:11.139 D/DetailActivity( 4807): onStart
+10-13 16:07:11.141 D/DetailActivity( 4807): onResume
+10-13 16:07:12.039 D/ListActivity( 4807): onStop
+10-13 16:07:13.403 D/DetailActivity( 4807): Возврат к прежнему списку студентов
+10-13 16:07:13.427 D/DetailActivity( 4807): onPause
+10-13 16:07:13.520 D/ListActivity( 4807): onStart
+10-13 16:07:13.521 D/ListActivity( 4807): onResume
+10-13 16:07:14.536 D/DetailActivity( 4807): onStop
+10-13 16:07:14.544 D/DetailActivity( 4807): onDestroy
+10-13 16:07:15.230 I/ListActivity( 4807): Выбран студент: Петров Максим
+10-13 16:07:15.289 D/ListActivity( 4807): onPause
+10-13 16:07:15.419 D/DetailActivity( 4807): onCreate: карточка студента открыта
+10-13 16:07:15.421 D/DetailActivity( 4807): Студент: Петров Максим, оценки: программирование=78, математика=84, английский=81, средний балл=81
+10-13 16:07:15.424 D/DetailActivity( 4807): onStart
+10-13 16:07:15.426 D/DetailActivity( 4807): onResume
+10-13 16:07:16.439 D/ListActivity( 4807): onStop
+10-13 16:07:17.593 D/DetailActivity( 4807): Возврат к прежнему списку студентов
+10-13 16:07:17.646 D/DetailActivity( 4807): onPause
+10-13 16:07:17.725 D/ListActivity( 4807): onStart
+10-13 16:07:17.726 D/ListActivity( 4807): onResume
+10-13 16:07:18.952 D/DetailActivity( 4807): onStop
+10-13 16:07:18.971 D/DetailActivity( 4807): onDestroy
