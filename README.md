@@ -17,13 +17,25 @@
 - **Интерфейс:** XML Layouts
 - **Архитектура экранов:** Activity и явные Intent
 
+## Версии SDK
+
+- **minSdk:** 26
+- **targetSdk:** 37
+- **compileSdk:** 37
+
+## Используемые технологии
+
+- **Язык программирования:** Kotlin
+- **Среда разработки:** Android Studio
+- **Интерфейс:** XML Layouts
+- **Архитектура экранов:** Activity и явные Intent
+- **Java:** 11
+
 ## Требования к запуску
 
 - Android Studio с поддержкой Gradle.
 - Android SDK, необходимый для сборки проекта.
 - Эмулятор Android или физическое Android-устройство.
-
-> Версии `minSdk`, `targetSdk` и `compileSdk` необходимо указать по настройкам проекта в `app/build.gradle.kts`.
 
 ## Установка приложения
 
